@@ -1,0 +1,18 @@
+{
+  "name": "challenges",
+  "version": "1.0.0",
+  "description": "The following is a set of front-end, back-end, and database challenges that can be completed to supplement your resume as part of the interview process with Headstorm. Technology is a core element of our culture at Headstorm and we hope you find these challenges interesting. Complete as many of the challenges as you desire.  It is acceptable to submit an incomplete solution to any challenge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HEADSTORM",
+    "CHALLENGE"
+  ],
+  "author": "Tyrone Criddle III",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0"
+  }
+}
