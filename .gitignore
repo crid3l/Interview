@@ -17,6 +17,8 @@ node_modules
 challenges/data/generate/target/
 challenges/data/generate/target/*
 challenges/data/generate/target
+numlist.txt
+savedlist.txt
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
