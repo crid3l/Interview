@@ -72,6 +72,9 @@ const initServer = async () => {
             });
             let list = JSON.parse(buffer);
             list.push(number)
+
+            // we could avoid the sorting overhead and use some binary search insertion
+            // which are worst occurs O(n) overhead.
             list.sort();
             fs.writeFileSync('savedlist.txt', JSON.stringify(list), err => {
                 if (err) throw err;
